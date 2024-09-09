@@ -1,0 +1,21 @@
+{
+  "name": "bullmq",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "type": "module",
+  "scripts": {
+    "worker": "tsx worker.ts",
+    "scheduler": "tsx scheduler.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bullmq": "^5.12.12"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.1",
+    "tsx": "^4.19.0"
+  }
+}
